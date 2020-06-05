@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:radius="10dp"
+        android:background="#00BCD4"
+        android:text="Family members"
+        android:textColor="#FFFFFF"
+        android:onClick="family"/>
+
+    <Button
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:radius="10dp"
+        android:background="#FFC107"
+        android:text="Numbers"
+        android:onClick="numbers"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:radius="10dp"
+        android:background="#FF5722"
+        android:text="Public Transportation"
+        android:onClick="transportation"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:radius="10dp"
+        android:background="#8BC34A"
+        android:text="Colors"
+        android:onClick="colors" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:radius="10dp"
+        android:background="#9C27B0"
+        android:text="School"
+        android:onClick="school" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/koreanflag" />
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/bus" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bus: 버스"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/doubledeckder" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Double Decker Bus: 2층 버스"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/subway" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Metro: 지하철"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/ktx" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Express Train: 기차 / 고속열차"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/airplane" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Airplane: 비행기"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

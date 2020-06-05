@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/kindergarten" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kindergarten: 유치원"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/elementryschool" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Elementry School: 초등학교"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/middleschool" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Middle School: 중학교"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/highschool" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High School: 고등학교"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/college" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College: 대학"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="20dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
